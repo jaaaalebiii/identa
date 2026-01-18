@@ -40,7 +40,7 @@ export default function NFCTapScroll() {
     className="absolute inset-0 -z-10 rounded-full bg-amber-400/40 blur-3xl"
   />
           <Image
-            src="/nfc/rfid.png"
+            src="/nfc/reader.png"
             alt="NFC Reader"
             width={300}
             height={180}
