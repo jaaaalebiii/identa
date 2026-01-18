@@ -12,7 +12,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata = {
-  title: "CamPass",
+  title: "Identa",
   description: "One Tap. One ID. One Campus.",
 };
 
