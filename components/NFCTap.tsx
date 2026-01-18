@@ -45,6 +45,7 @@ export default function NFCTapScroll() {
             width={300}
             height={180}
             priority
+            unoptimized={true}
             className="drop-shadow-2xl"
           />
         </motion.div>
