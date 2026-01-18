@@ -40,10 +40,11 @@ export default function NFCTapScroll() {
     className="absolute inset-0 -z-10 rounded-full bg-amber-400/40 blur-3xl"
   />
           <Image
-            src="../public/nfc/reader.png"
+            src="/nfc/reader.png"
             alt="NFC Reader"
             width={300}
             height={180}
+            priority
             className="drop-shadow-2xl"
           />
         </motion.div>
@@ -66,7 +67,7 @@ export default function NFCTapScroll() {
           className="absolute right-0 top-1/2 z-20 -translate-y-1/2"
         >
           <Image
-            src="../public/nfc/hand.png"
+            src="/nfc/hand.png"
             alt="NFC Card Tap"
             width={380}
             height={240}
