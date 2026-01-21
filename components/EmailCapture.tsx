@@ -61,7 +61,7 @@ export default function EmailCapture() {
 
           <button
             type="submit"
-            className="rounded-xl bg-amber-400 px-8 py-4 font-medium text-white hover:bg-amber-400 transition"
+            className="rounded-xl bg-amber-400 px-8 py-4 font-medium text-slate-900 hover:bg-amber-500 transition"
           >
             Request Access
           </button>

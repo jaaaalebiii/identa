@@ -45,7 +45,7 @@ export default function Home() {
     </p>
 
     <div className="flex justify-center gap-4">
-  <button className="bg-amber-400 text-white px-6 py-3 rounded-lg font-medium hover:bg-amber-400 transition">
+  <button  onClick={() => {document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });}} className="bg-amber-400 text-slate-900 px-6 py-3 rounded-lg font-medium hover:bg-amber-500 transition">
     Request Demo
   </button>
 
